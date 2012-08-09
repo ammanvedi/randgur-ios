@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8683959915D4134800175801 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8683959815D4134800175801 /* UIKit.framework */; };
+		8683959B15D4134800175801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8683959A15D4134800175801 /* Foundation.framework */; };
+		8683959D15D4134800175801 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8683959C15D4134800175801 /* CoreGraphics.framework */; };
+		868395A315D4134800175801 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 868395A115D4134800175801 /* InfoPlist.strings */; };
+		868395A515D4134800175801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 868395A415D4134800175801 /* main.m */; };
+		868395A915D4134800175801 /* RGAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 868395A815D4134800175801 /* RGAAppDelegate.m */; };
+		868395AC15D4134800175801 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868395AA15D4134800175801 /* MainStoryboard.storyboard */; };
+		868395AF15D4134800175801 /* RGAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868395AE15D4134800175801 /* RGAViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8683959415D4134800175801 /* Randgur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randgur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8683959815D4134800175801 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8683959A15D4134800175801 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8683959C15D4134800175801 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		868395A015D4134800175801 /* Randgur-Info.plist */ = {isa = PBXFileReference; path = "Randgur-Info.plist"; sourceTree = "<group>"; };
+		868395A215D4134800175801 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		868395A415D4134800175801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		868395A615D4134800175801 /* Randgur-Prefix.pch */ = {isa = PBXFileReference; path = "Randgur-Prefix.pch"; sourceTree = "<group>"; };
+		868395A715D4134800175801 /* RGAAppDelegate.h */ = {isa = PBXFileReference; path = RGAAppDelegate.h; sourceTree = "<group>"; };
+		868395A815D4134800175801 /* RGAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAAppDelegate.m; sourceTree = "<group>"; };
+		868395AB15D4134800175801 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		868395AD15D4134800175801 /* RGAViewController.h */ = {isa = PBXFileReference; path = RGAViewController.h; sourceTree = "<group>"; };
+		868395AE15D4134800175801 /* RGAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8683959115D4134800175801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8683959915D4134800175801 /* UIKit.framework in Frameworks */,
+				8683959B15D4134800175801 /* Foundation.framework in Frameworks */,
+				8683959D15D4134800175801 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8683958915D4134800175801 = {
+			isa = PBXGroup;
+			children = (
+				8683959E15D4134800175801 /* Randgur */,
+				8683959715D4134800175801 /* Frameworks */,
+				8683959515D4134800175801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8683959515D4134800175801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8683959415D4134800175801 /* Randgur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8683959715D4134800175801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8683959815D4134800175801 /* UIKit.framework */,
+				8683959A15D4134800175801 /* Foundation.framework */,
+				8683959C15D4134800175801 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8683959E15D4134800175801 /* Randgur */ = {
+			isa = PBXGroup;
+			children = (
+				868395A715D4134800175801 /* RGAAppDelegate.h */,
+				868395A815D4134800175801 /* RGAAppDelegate.m */,
+				868395AA15D4134800175801 /* MainStoryboard.storyboard */,
+				868395AD15D4134800175801 /* RGAViewController.h */,
+				868395AE15D4134800175801 /* RGAViewController.m */,
+				8683959F15D4134800175801 /* Supporting Files */,
+			);
+			path = Randgur;
+			sourceTree = "<group>";
+		};
+		8683959F15D4134800175801 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				868395A015D4134800175801 /* Randgur-Info.plist */,
+				868395A115D4134800175801 /* InfoPlist.strings */,
+				868395A415D4134800175801 /* main.m */,
+				868395A615D4134800175801 /* Randgur-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8683959315D4134800175801 /* Randgur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868395B215D4134800175801 /* Build configuration list for PBXNativeTarget "Randgur" */;
+			buildPhases = (
+				8683959015D4134800175801 /* Sources */,
+				8683959115D4134800175801 /* Frameworks */,
+				8683959215D4134800175801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Randgur;
+			productName = Randgur;
+			productReference = 8683959415D4134800175801 /* Randgur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8683958B15D4134800175801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RGA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8683958E15D4134800175801 /* Build configuration list for PBXProject "Randgur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8683958915D4134800175801;
+			productRefGroup = 8683959515D4134800175801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8683959315D4134800175801 /* Randgur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8683959215D4134800175801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868395A315D4134800175801 /* InfoPlist.strings in Resources */,
+				868395AC15D4134800175801 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8683959015D4134800175801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868395A515D4134800175801 /* main.m in Sources */,
+				868395A915D4134800175801 /* RGAAppDelegate.m in Sources */,
+				868395AF15D4134800175801 /* RGAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		868395A115D4134800175801 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868395A215D4134800175801 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		868395AA15D4134800175801 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868395AB15D4134800175801 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		868395B015D4134800175801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		868395B115D4134800175801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		868395B315D4134800175801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Randgur/Randgur-Prefix.pch";
+				INFOPLIST_FILE = "Randgur/Randgur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		868395B415D4134800175801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Randgur/Randgur-Prefix.pch";
+				INFOPLIST_FILE = "Randgur/Randgur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8683958E15D4134800175801 /* Build configuration list for PBXProject "Randgur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868395B015D4134800175801 /* Debug */,
+				868395B115D4134800175801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868395B215D4134800175801 /* Build configuration list for PBXNativeTarget "Randgur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868395B315D4134800175801 /* Debug */,
+				868395B415D4134800175801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8683958B15D4134800175801 /* Project object */;
+}
