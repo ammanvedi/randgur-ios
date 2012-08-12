@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8609786315D54700009CDB28 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8609786115D54700009CDB28 /* navbar.png */; };
+		8609786415D54700009CDB28 /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8609786215D54700009CDB28 /* navbar@2x.png */; };
 		8683959915D4134800175801 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8683959815D4134800175801 /* UIKit.framework */; };
 		8683959B15D4134800175801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8683959A15D4134800175801 /* Foundation.framework */; };
 		8683959D15D4134800175801 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8683959C15D4134800175801 /* CoreGraphics.framework */; };
@@ -15,22 +17,50 @@
 		868395A915D4134800175801 /* RGAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 868395A815D4134800175801 /* RGAAppDelegate.m */; };
 		868395AC15D4134800175801 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868395AA15D4134800175801 /* MainStoryboard.storyboard */; };
 		868395AF15D4134800175801 /* RGAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868395AE15D4134800175801 /* RGAViewController.m */; };
+		868395B615D41C5200175801 /* BLUE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 868395B515D41C5200175801 /* BLUE.jpg */; };
+		868395B815D41CD600175801 /* phi.png in Resources */ = {isa = PBXBuildFile; fileRef = 868395B715D41CD600175801 /* phi.png */; };
+		868395BD15D42CEE00175801 /* Bottom_main_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 868395B915D42CEE00175801 /* Bottom_main_retina.png */; };
+		868395BE15D42CEE00175801 /* Bottom_main_retina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 868395BA15D42CEE00175801 /* Bottom_main_retina@2x.png */; };
+		868395BF15D42CEE00175801 /* Polaroid_main_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 868395BB15D42CEE00175801 /* Polaroid_main_retina.png */; };
+		868395C015D42CEE00175801 /* Polaroid_main_retina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 868395BC15D42CEE00175801 /* Polaroid_main_retina@2x.png */; };
+		868CA03815D5606B00A89DCC /* nb_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 868CA03615D5606B00A89DCC /* nb_green.png */; };
+		868CA03915D5606B00A89DCC /* nb_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 868CA03715D5606B00A89DCC /* nb_green@2x.png */; };
+		868CA03D15D56E6E00A89DCC /* irongrip_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 868CA03B15D56E6E00A89DCC /* irongrip_@2X.png */; };
+		868CA03E15D56E6E00A89DCC /* irongrip.png in Resources */ = {isa = PBXBuildFile; fileRef = 868CA03C15D56E6E00A89DCC /* irongrip.png */; };
+		868CA04015D5BA2200A89DCC /* linebar_00000.png in Resources */ = {isa = PBXBuildFile; fileRef = 868CA03F15D5BA2200A89DCC /* linebar_00000.png */; };
+		868CA04315D5BCBA00A89DCC /* concrete_wall_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 868CA04115D5BCBA00A89DCC /* concrete_wall_@2X.png */; };
+		868CA04415D5BCBA00A89DCC /* concrete_wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 868CA04215D5BCBA00A89DCC /* concrete_wall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8609786115D54700009CDB28 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbar.png; path = ../../../../Dropbox/randgur/img/ui/navbar.png; sourceTree = "<group>"; };
+		8609786215D54700009CDB28 /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navbar@2x.png"; path = "../../../../Dropbox/randgur/img/ui/navbar@2x.png"; sourceTree = "<group>"; };
 		8683959415D4134800175801 /* Randgur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randgur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8683959815D4134800175801 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8683959A15D4134800175801 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8683959C15D4134800175801 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		868395A015D4134800175801 /* Randgur-Info.plist */ = {isa = PBXFileReference; path = "Randgur-Info.plist"; sourceTree = "<group>"; };
+		868395A015D4134800175801 /* Randgur-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Randgur-Info.plist"; sourceTree = "<group>"; };
 		868395A215D4134800175801 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		868395A415D4134800175801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		868395A615D4134800175801 /* Randgur-Prefix.pch */ = {isa = PBXFileReference; path = "Randgur-Prefix.pch"; sourceTree = "<group>"; };
-		868395A715D4134800175801 /* RGAAppDelegate.h */ = {isa = PBXFileReference; path = RGAAppDelegate.h; sourceTree = "<group>"; };
+		868395A615D4134800175801 /* Randgur-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Randgur-Prefix.pch"; sourceTree = "<group>"; };
+		868395A715D4134800175801 /* RGAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGAAppDelegate.h; sourceTree = "<group>"; };
 		868395A815D4134800175801 /* RGAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAAppDelegate.m; sourceTree = "<group>"; };
 		868395AB15D4134800175801 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		868395AD15D4134800175801 /* RGAViewController.h */ = {isa = PBXFileReference; path = RGAViewController.h; sourceTree = "<group>"; };
+		868395AD15D4134800175801 /* RGAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGAViewController.h; sourceTree = "<group>"; };
 		868395AE15D4134800175801 /* RGAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAViewController.m; sourceTree = "<group>"; };
+		868395B515D41C5200175801 /* BLUE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BLUE.jpg; path = ../../../../../Desktop/BLUE.jpg; sourceTree = "<group>"; };
+		868395B715D41CD600175801 /* phi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phi.png; path = ../../../../Desktop/phi.png; sourceTree = "<group>"; };
+		868395B915D42CEE00175801 /* Bottom_main_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bottom_main_retina.png; path = ../../../../Dropbox/randgur/img/ui/Bottom_main_retina.png; sourceTree = "<group>"; };
+		868395BA15D42CEE00175801 /* Bottom_main_retina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bottom_main_retina@2x.png"; path = "../../../../Dropbox/randgur/img/ui/Bottom_main_retina@2x.png"; sourceTree = "<group>"; };
+		868395BB15D42CEE00175801 /* Polaroid_main_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Polaroid_main_retina.png; path = ../../../../Dropbox/randgur/img/ui/Polaroid_main_retina.png; sourceTree = "<group>"; };
+		868395BC15D42CEE00175801 /* Polaroid_main_retina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Polaroid_main_retina@2x.png"; path = "../../../../Dropbox/randgur/img/ui/Polaroid_main_retina@2x.png"; sourceTree = "<group>"; };
+		868CA03615D5606B00A89DCC /* nb_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nb_green.png; path = ../../../../Dropbox/randgur/img/ui/nb_green.png; sourceTree = "<group>"; };
+		868CA03715D5606B00A89DCC /* nb_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nb_green@2x.png"; path = "../../../../Dropbox/randgur/img/ui/nb_green@2x.png"; sourceTree = "<group>"; };
+		868CA03B15D56E6E00A89DCC /* irongrip_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "irongrip_@2X.png"; path = "../../../../Dropbox/randgur/img/ui/irongrip_@2X.png"; sourceTree = "<group>"; };
+		868CA03C15D56E6E00A89DCC /* irongrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = irongrip.png; path = ../../../../Dropbox/randgur/img/ui/irongrip.png; sourceTree = "<group>"; };
+		868CA03F15D5BA2200A89DCC /* linebar_00000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linebar_00000.png; path = ../../../../Dropbox/randgur/img/ui/linebar_00000.png; sourceTree = "<group>"; };
+		868CA04115D5BCBA00A89DCC /* concrete_wall_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "concrete_wall_@2X.png"; path = "../../../../Dropbox/randgur/img/ui/concrete_wall_@2X.png"; sourceTree = "<group>"; };
+		868CA04215D5BCBA00A89DCC /* concrete_wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = concrete_wall.png; path = ../../../../Dropbox/randgur/img/ui/concrete_wall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +80,20 @@
 		8683958915D4134800175801 = {
 			isa = PBXGroup;
 			children = (
+				868CA04115D5BCBA00A89DCC /* concrete_wall_@2X.png */,
+				868CA04215D5BCBA00A89DCC /* concrete_wall.png */,
+				868CA03B15D56E6E00A89DCC /* irongrip_@2X.png */,
+				868CA03C15D56E6E00A89DCC /* irongrip.png */,
+				8609786115D54700009CDB28 /* navbar.png */,
+				8609786215D54700009CDB28 /* navbar@2x.png */,
+				868395B915D42CEE00175801 /* Bottom_main_retina.png */,
+				868395BA15D42CEE00175801 /* Bottom_main_retina@2x.png */,
+				868395BB15D42CEE00175801 /* Polaroid_main_retina.png */,
+				868395BC15D42CEE00175801 /* Polaroid_main_retina@2x.png */,
+				868395B715D41CD600175801 /* phi.png */,
+				868CA03615D5606B00A89DCC /* nb_green.png */,
+				868CA03715D5606B00A89DCC /* nb_green@2x.png */,
+				868CA03F15D5BA2200A89DCC /* linebar_00000.png */,
 				8683959E15D4134800175801 /* Randgur */,
 				8683959715D4134800175801 /* Frameworks */,
 				8683959515D4134800175801 /* Products */,
@@ -82,6 +126,7 @@
 				868395AA15D4134800175801 /* MainStoryboard.storyboard */,
 				868395AD15D4134800175801 /* RGAViewController.h */,
 				868395AE15D4134800175801 /* RGAViewController.m */,
+				868395B515D41C5200175801 /* BLUE.jpg */,
 				8683959F15D4134800175801 /* Supporting Files */,
 			);
 			path = Randgur;
@@ -151,6 +196,21 @@
 			files = (
 				868395A315D4134800175801 /* InfoPlist.strings in Resources */,
 				868395AC15D4134800175801 /* MainStoryboard.storyboard in Resources */,
+				868395B615D41C5200175801 /* BLUE.jpg in Resources */,
+				868395B815D41CD600175801 /* phi.png in Resources */,
+				868395BD15D42CEE00175801 /* Bottom_main_retina.png in Resources */,
+				868395BE15D42CEE00175801 /* Bottom_main_retina@2x.png in Resources */,
+				868395BF15D42CEE00175801 /* Polaroid_main_retina.png in Resources */,
+				868395C015D42CEE00175801 /* Polaroid_main_retina@2x.png in Resources */,
+				8609786315D54700009CDB28 /* navbar.png in Resources */,
+				8609786415D54700009CDB28 /* navbar@2x.png in Resources */,
+				868CA03815D5606B00A89DCC /* nb_green.png in Resources */,
+				868CA03915D5606B00A89DCC /* nb_green@2x.png in Resources */,
+				868CA03D15D56E6E00A89DCC /* irongrip_@2X.png in Resources */,
+				868CA03E15D56E6E00A89DCC /* irongrip.png in Resources */,
+				868CA04015D5BA2200A89DCC /* linebar_00000.png in Resources */,
+				868CA04315D5BCBA00A89DCC /* concrete_wall_@2X.png in Resources */,
+				868CA04415D5BCBA00A89DCC /* concrete_wall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +301,7 @@
 				GCC_PREFIX_HEADER = "Randgur/Randgur-Prefix.pch";
 				INFOPLIST_FILE = "Randgur/Randgur-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -252,6 +313,7 @@
 				GCC_PREFIX_HEADER = "Randgur/Randgur-Prefix.pch";
 				INFOPLIST_FILE = "Randgur/Randgur-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,6 +337,7 @@
 				868395B415D4134800175801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

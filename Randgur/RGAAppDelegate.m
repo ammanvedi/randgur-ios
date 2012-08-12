@@ -15,6 +15,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+        UIImage *navbar =[UIImage imageNamed:@"nb_green.png"];
+ //   UIImage *BG = [UIImage imageNamed:@"irongrip.png"];
+    
+        [[UINavigationBar appearance] setBackgroundImage:navbar forBarMetrics:UIBarMetricsDefault];
+    
+   // [[UIView appearance] setBackgroundColor: [UIColor colorWithPatternImage:BG]];
+
+    
     return YES;
 }
 							

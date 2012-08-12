@@ -8,6 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RGAViewController : UIViewController
+@interface RGAViewController : UIViewController;
+
+@property (weak, nonatomic) IBOutlet UIWebView *webview;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imgview;
+
+@property (weak, nonatomic) IBOutlet UITextView *textview;
+
+- (IBAction)Copy:(id)sender;
+
+- (IBAction)randomize:(id)sender;
+
+-(void) openimg;
+
+-(void) copytoclipboard;
+
+-(float) getaspect:(float)width withheight:(float)height;
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollview;
 
 @end
