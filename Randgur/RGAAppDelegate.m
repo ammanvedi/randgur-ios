@@ -16,10 +16,10 @@
 {
     // Override point for customization after application launch.
     
-        UIImage *navbar =[UIImage imageNamed:@"nb_green.png"];
- //   UIImage *BG = [UIImage imageNamed:@"irongrip.png"];
+        UIImage *navbar =[UIImage imageNamed:@"nav_new_green.png"];
     
         [[UINavigationBar appearance] setBackgroundImage:navbar forBarMetrics:UIBarMetricsDefault];
+        [[UIBarButtonItem appearance] setTintColor:[UIColor colorWithRed:138.0/255.0 green:217.0/255.0 blue:48.0/255.0 alpha:1.0/1.0]];
     
    // [[UIView appearance] setBackgroundColor: [UIColor colorWithPatternImage:BG]];
 
